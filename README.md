@@ -1,2 +1,2 @@
-# reasonable-colors
- Reasonable Colors is a small, thoughtfully selected set of color palettes that anyone can use to help build accessible and kinda nice-looking projects.
+# Reasonable Colors
+Reasonable Colors is an open-source color system that makes it easy to build accessible, nice-looking color palettes.
