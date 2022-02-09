@@ -1,0 +1,125 @@
+/*! reasonable colors v0.1 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+
+/* ******
+
+Format for CSS variables: --color-COLORNAME-COLORNUMBER
+
+Available values for COLORNAME:
+	rose, red, orange, yellow, chartreuse, green, spring, cyan, azure, blue, violet, magenta, gray
+Available values for COLORNUMBER:
+	1, 2, 3, 4, 5, 6
+
+Minimum contrast can be inferred by the difference bewtweeb two COLORNUMBER values
+	Difference of 2: (3:1)
+	Difference of 3: (4.5:1)
+	Difference of 4: (7:1)
+
+Complete documentation available at: https://www.reasonable.work/colors 
+****** */
+
+:root {
+
+	/* rose */
+	--color-rose-1: #fff7f9;
+	--color-rose-2: #ffdce5;
+	--color-rose-3: #ff3b8d;
+	--color-rose-4: #db0072;
+	--color-rose-5: #800040;
+	--color-rose-6: #4c0023;
+
+	/* red */
+	--color-red-1: #fff8f6;
+	--color-red-2: #ffddd8;
+	--color-red-3: #ff4647;
+	--color-red-4: #e0002b;
+	--color-red-5: #830014;
+	--color-red-6: #530003;
+
+	/* orange */
+	--color-orange-1: #fff8f3;
+	--color-orange-2: #ffdfc6;
+	--color-orange-3: #d57300;
+	--color-orange-4: #ac5c00;
+	--color-orange-5: #633300;
+	--color-orange-6: #371d00;
+
+	/* yellow */
+	--color-yellow-1: #fff9e5;
+	--color-yellow-2: #ffe53e;
+	--color-yellow-3: #9c8b00;
+	--color-yellow-4: #7d6f00;
+	--color-yellow-5: #463d00;
+	--color-yellow-6: #292300;
+	
+	/* chartreuse */
+	--color-chartreuse-1: #e5ffc3;
+	--color-chartreuse-2: #98fb00;
+	--color-chartreuse-3: #5c9b00;
+	--color-chartreuse-4: #497c00;
+	--color-chartreuse-5: #264500;
+	--color-chartreuse-6: #182600;
+
+	/* green */
+	--color-green-1: #dcffe6;
+	--color-green-2: #5dffa2;
+	--color-green-3: #00a05a;
+	--color-green-4: #008147;
+	--color-green-5: #004825;
+	--color-green-6: #002812;
+
+	/* spring */
+	--color-spring-1: #d7fff7;
+	--color-spring-2: #00ffe4;
+	--color-spring-3: #009e8c;
+	--color-spring-4: #007c6e;
+	--color-spring-5: #00443c;
+	--color-spring-6: #002722;
+
+	/* cyan */
+	--color-cyan-1: #dafaff;
+	--color-cyan-2: #8df0ff;
+	--color-cyan-3: #0098a9;
+	--color-cyan-4: #007987;
+	--color-cyan-5: #004048;
+	--color-cyan-6: #002227;
+
+	/* azure */
+	--color-azure-1: #e8f6ff;
+	--color-azure-2: #b9e3ff;
+	--color-azure-3: #0092c5;
+	--color-azure-4: #00749d;
+	--color-azure-5: #003c54;
+	--color-azure-6: #001d2a;
+	
+	/* blue */
+	--color-blue-1: #f0f4ff;
+	--color-blue-2: #d4e0ff;
+	--color-blue-3: #0089fc;
+	--color-blue-4: #006dca;
+	--color-blue-5: #00386d;
+	--color-blue-6: #001a39;
+		
+	/* violet */
+	--color-violet-1: #f7f1ff;
+	--color-violet-2: #e8daff;
+	--color-violet-3: #9b70ff;
+	--color-violet-4: #794aff;
+	--color-violet-5: #2d0fbf;
+	--color-violet-6: #0b0074;
+		
+	/* magenta */
+	--color-magenta-1: #fff3fc;
+	--color-magenta-2: #ffd7f6;
+	--color-magenta-3: #f911e0;
+	--color-magenta-4: #ca00b6;
+	--color-magenta-5: #740068;
+	--color-magenta-6: #44003c;
+
+	/* gray */
+	--color-gray-1: #f6f6f6;
+	--color-gray-2: #e2e2e2;
+	--color-gray-3: #8b8b8b;
+	--color-gray-4: #6f6f6f;
+	--color-gray-5: #3e3e3e;
+	--color-gray-6: #222222;
+}
