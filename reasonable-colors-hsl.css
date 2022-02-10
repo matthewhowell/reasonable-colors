@@ -1,0 +1,226 @@
+/*! reasonable colors v0.3.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+
+/* ******
+
+Format for CSS variables: --color-COLORNAME-COLORNUMBER
+
+Available values for COLORNAME:
+	gray,
+	rose, raspberry, red, orange, cinnamon, amber, yellow, lime,
+	chartreuse, green, emerald, aquamarine, teal, cyan, powder, sky
+	cerulean, azure, blue, indigo, violet, purple, magenta, pink
+	
+Available values for COLORNUMBER:
+	1, 2, 3, 4, 5, 6
+
+Minimum contrast can be inferred by the difference bewtweeb two COLORNUMBER values
+	Difference of 2: (3:1)
+	Difference of 3: (4.5:1)
+	Difference of 4: (7:1)
+
+Complete documentation available at: https://www.reasonable.work/colors 
+****** */
+
+:root {
+
+	/* rose */
+	--color-rose-1: hsl(346.07, 99.43%, 98.5%);
+	--color-rose-2: hsl(345.18, 99.96%, 93.2%);
+	--color-rose-3: hsl(334.81, 99.99%, 61.6%);
+	--color-rose-4: hsl(328.92, 99.98%, 42.97%);
+	--color-rose-5: hsl(330.17, 99.93%, 25.07%);
+	--color-rose-6: hsl(332.18, 99.94%, 14.98%);
+
+	/* raspberry */
+	--color-raspberry-1: hsl(357.78, 99.6%, 98.53%);
+	--color-raspberry-2: hsl(357.11, 99.89%, 93.31%);
+	--color-raspberry-3: hsl(346.49, 100%, 62.87%);
+	--color-raspberry-4: hsl(338.06, 99.91%, 43.59%);
+	--color-raspberry-5: hsl(339.67, 99.94%, 25.43%);
+	--color-raspberry-6: hsl(341.96, 99.97%, 15.97%);
+
+	/* red */
+	--color-red-1: hsl(8.36, 99.84%, 98.32%);
+	--color-red-2: hsl(8.16, 99.91%, 92.38%);
+	--color-red-3: hsl(359.7, 100%, 63.73%);
+	--color-red-4: hsl(348.63, 99.98%, 44%);
+	--color-red-5: hsl(350.67, 99.96%, 25.69%);
+	--color-red-6: hsl(357.65, 99.99%, 16.18%);
+
+	/* orange */
+	--color-orange-1: hsl(17.05, 99.76%, 98.01%);
+	--color-orange-2: hsl(17.3, 99.97%, 90.92%);
+	--color-orange-3: hsl(18.2, 99.99%, 49.52%);
+	--color-orange-4: hsl(17.68, 99.98%, 40.12%);
+	--color-orange-5: hsl(17.02, 99.98%, 23.02%);
+	--color-orange-6: hsl(20.77, 99.94%, 12.58%);
+
+	/* cinnamon */
+	--color-cinnamon-1: hsl(25.29, 99.95%, 97.6%);
+	--color-cinnamon-2: hsl(26.05, 99.98%, 88.85%);
+	--color-cinnamon-3: hsl(32.37, 99.98%, 41.74%);
+	--color-cinnamon-4: hsl(31.96, 99.97%, 33.74%);
+	--color-cinnamon-5: hsl(30.71, 100%, 19.36%);
+	--color-cinnamon-6: hsl(31.7, 99.96%, 10.77%);
+
+	/* amber */
+	--color-amber-1: hsl(34.3, 99.88%, 96.9%);
+	--color-amber-2: hsl(35.9, 100%, 84.95%);
+	--color-amber-3: hsl(42.6, 99.96%, 36.2%);
+	--color-amber-4: hsl(42.28, 99.99%, 28.57%);
+	--color-amber-5: hsl(41.2, 99.94%, 16.09%);
+	--color-amber-6: hsl(41.07, 99.98%, 9.38%);
+
+	/* yellow */
+	--color-yellow-1: hsl(46, 99.99%, 94.95%);
+	--color-yellow-2: hsl(51.81, 100%, 62.08%);
+	--color-yellow-3: hsl(53.34, 99.93%, 30.68%);
+	--color-yellow-4: hsl(53.2, 99.99%, 24.58%);
+	--color-yellow-5: hsl(52.64, 99.98%, 13.72%);
+	--color-yellow-6: hsl(51.45, 99.93%, 8.1%);
+
+	/* lime */
+	--color-lime-1: hsl(65.62, 100%, 83.69%);
+	--color-lime-2: hsl(67.06, 99.99%, 47.44%);
+	--color-lime-3: hsl(67.31, 99.91%, 28.91%);
+	--color-lime-4: hsl(67.47, 99.96%, 23.14%);
+	--color-lime-5: hsl(67.99, 99.92%, 12.84%);
+	--color-lime-6: hsl(65.61, 99.97%, 7.39%);
+
+	/* chartreuse */
+	--color-chartreuse-1: hsl(85.69, 99.99%, 88.16%);
+	--color-chartreuse-2: hsl(83.69, 99.96%, 49.28%);
+	--color-chartreuse-3: hsl(84.47, 99.98%, 30.44%);
+	--color-chartreuse-4: hsl(84.97, 99.96%, 24.4%);
+	--color-chartreuse-5: hsl(86.81, 99.97%, 13.6%);
+	--color-chartreuse-6: hsl(82.22, 99.9%, 7.37%);
+
+	/* green */
+	--color-green-1: hsl(109.97, 99.98%, 92.62%);
+	--color-green-2: hsl(117.73, 100%, 71.17%);
+	--color-green-3: hsl(131.49, 99.86%, 31.77%);
+	--color-green-4: hsl(130.54, 99.9%, 25.48%);
+	--color-green-5: hsl(126.84, 99.95%, 14.25%);
+	--color-green-6: hsl(110.87, 99.97%, 7.84%);
+
+	/* emerald */
+	--color-emerald-1: hsl(136.97, 99.98%, 93.17%);
+	--color-emerald-2: hsl(145.53, 99.99%, 68.22%);
+	--color-emerald-3: hsl(153.53, 99.82%, 31.48%);
+	--color-emerald-4: hsl(153.03, 99.98%, 25.22%);
+	--color-emerald-5: hsl(150.93, 99.9%, 14.11%);
+	--color-emerald-6: hsl(146.95, 99.88%, 7.86%);
+
+	/* aquamarine */
+	--color-aquamarine-1: hsl(154.47, 99.98%, 92.65%);
+	--color-aquamarine-2: hsl(161.94, 100%, 62.84%);
+	--color-aquamarine-3: hsl(165.15, 99.85%, 31.18%);
+	--color-aquamarine-4: hsl(164.85, 99.87%, 25%);
+	--color-aquamarine-5: hsl(163.67, 99.87%, 13.96%);
+	--color-aquamarine-6: hsl(161.53, 99.95%, 7.77%);
+
+	/* teal */
+	--color-teal-1: hsl(167.47, 100%, 92.17%);
+	--color-teal-2: hsl(173.64, 99.94%, 49.99%);
+	--color-teal-3: hsl(173.43, 99.95%, 30.9%);
+	--color-teal-4: hsl(173.28, 99.82%, 24.24%);
+	--color-teal-5: hsl(172.72, 99.88%, 13.34%);
+	--color-teal-6: hsl(171.81, 99.98%, 7.68%);
+
+	/* cyan */
+	--color-cyan-1: hsl(178.99, 99.99%, 88.47%);
+	--color-cyan-2: hsl(180.23, 99.9%, 49.17%);
+	--color-cyan-3: hsl(180.23, 100%, 30.19%);
+	--color-cyan-4: hsl(180.24, 99.87%, 24.13%);
+	--color-cyan-5: hsl(180.26, 99.82%, 13.28%);
+	--color-cyan-6: hsl(180.3, 99.96%, 7.2%);
+
+	/* powder */
+	--color-powder-1: hsl(188.47, 99.97%, 92.71%);
+	--color-powder-2: hsl(188.15, 99.99%, 77.65%);
+	--color-powder-3: hsl(185.92, 99.91%, 33.09%);
+	--color-powder-4: hsl(186.04, 99.81%, 26.49%);
+	--color-powder-5: hsl(186.53, 99.89%, 14.15%);
+	--color-powder-6: hsl(187.45, 99.81%, 7.59%);
+
+	/* sky */
+	--color-sky-1: hsl(196.72, 99.94%, 94.54%);
+	--color-sky-2: hsl(195.99, 99.97%, 84.14%);
+	--color-sky-3: hsl(190.84, 99.77%, 35.38%);
+	--color-sky-4: hsl(191.03, 99.95%, 28.22%);
+	--color-sky-5: hsl(191.83, 99.82%, 15.53%);
+	--color-sky-6: hsl(193.54, 99.91%, 7.91%);
+
+	/* cerulean */
+	--color-cerulean-1: hsl(204.68, 99.99%, 95.59%);
+	--color-cerulean-2: hsl(203.62, 100%, 86.22%);
+	--color-cerulean-3: hsl(195.6, 99.93%, 38.63%);
+	--color-cerulean-4: hsl(195.86, 99.98%, 30.88%);
+	--color-cerulean-5: hsl(197, 99.88%, 16.48%);
+	--color-cerulean-6: hsl(199.33, 99.94%, 8.26%);
+
+	/* azure */
+	--color-azure-1: hsl(213.32, 99.82%, 95.42%);
+	--color-azure-2: hsl(212.28, 100%, 88.74%);
+	--color-azure-3: hsl(200.83, 99.92%, 42.9%);
+	--color-azure-4: hsl(201.14, 99.97%, 34.34%);
+	--color-azure-5: hsl(202.49, 99.9%, 18.46%);
+	--color-azure-6: hsl(205.29, 99.95%, 9.41%);
+
+	/* blue */
+	--color-blue-1: hsl(224.63, 99.87%, 97%);
+	--color-blue-2: hsl(223.56, 99.9%, 91.61%);
+	--color-blue-3: hsl(207.29, 99.89%, 49.39%);
+	--color-blue-4: hsl(207.65, 99.86%, 39.64%);
+	--color-blue-5: hsl(209.15, 99.94%, 21.47%);
+	--color-blue-6: hsl(212.22, 99.94%, 11.14%);
+
+	/* indigo */
+	--color-indigo-1: hsl(241.96, 99.87%, 97.56%);
+	--color-indigo-2: hsl(240.84, 99.96%, 93.36%);
+	--color-indigo-3: hsl(230.37, 99.99%, 69.86%);
+	--color-indigo-4: hsl(216.87, 99.99%, 49.48%);
+	--color-indigo-5: hsl(218.47, 99.95%, 27.11%);
+	--color-indigo-6: hsl(221.61, 99.97%, 14.38%);
+
+	/* violet */
+	--color-violet-1: hsl(263.85, 99.96%, 97.33%);
+	--color-violet-2: hsl(263.17, 99.9%, 92.69%);
+	--color-violet-3: hsl(258.3, 100%, 71.89%);
+	--color-violet-4: hsl(255.43, 99.99%, 64.59%);
+	--color-violet-5: hsl(250.39, 85.77%, 40.42%);
+	--color-violet-6: hsl(245.8, 100%, 22.66%);
+
+	/* purple */
+	--color-purple-1: hsl(288.22, 99.8%, 97.75%);
+	--color-purple-2: hsl(287.36, 99.93%, 92.48%);
+	--color-purple-3: hsl(284.08, 100%, 65.71%);
+	--color-purple-4: hsl(284.55, 77.53%, 50.42%);
+	--color-purple-5: hsl(285.23, 99.99%, 26.48%);
+	--color-purple-6: hsl(284.23, 99.98%, 15.4%);
+
+	/* magenta */
+	--color-magenta-1: hsl(314.96, 99.99%, 97.66%);
+	--color-magenta-2: hsl(313.78, 99.95%, 92.07%);
+	--color-magenta-3: hsl(306.28, 94.77%, 52.17%);
+	--color-magenta-4: hsl(305.92, 99.95%, 39.66%);
+	--color-magenta-5: hsl(306.21, 99.97%, 22.8%);
+	--color-magenta-6: hsl(306.68, 99.94%, 13.33%);
+
+	/* pink */
+	--color-pink-1: hsl(332.82, 99.54%, 98.48%);
+	--color-pink-2: hsl(331.79, 99.98%, 93.07%);
+	--color-pink-3: hsl(322.24, 100%, 59.31%);
+	--color-pink-4: hsl(319.09, 99.94%, 41.2%);
+	--color-pink-5: hsl(319.97, 99.95%, 23.72%);
+	--color-pink-6: hsl(321.26, 99.94%, 14.63%);
+
+	/* gray */
+	--color-gray-1: hsl(194.33, 0%, 96.6%);
+	--color-gray-2: hsl(194.33, 0%, 88.76%);
+	--color-gray-3: hsl(194.33, 0%, 54.65%);
+	--color-gray-4: hsl(194.33, 0%, 43.69%);
+	--color-gray-5: hsl(194.33, 0%, 24.13%);
+	--color-gray-6: hsl(194.33, 0%, 13.15%);
+
+}
