@@ -1,6 +1,6 @@
 {
   "name": "reasonable-colors",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Reasonable Colors is an open-source color system that makes it easy to build accessible, nice-looking color palettes.",
   "main": "reasonable-colors.css",
   "scripts": {
