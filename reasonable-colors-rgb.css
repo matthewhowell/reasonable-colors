@@ -1,24 +1,24 @@
-/*! reasonable colors v0.3.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+/*! reasonable colors v0.3.1 | MIT License | https://github.com/matthewhowell/reasonable-colors */
 
 /* ******
 
-Format for CSS variables: --color-COLORNAME-COLORNUMBER
+Format for CSS variables: --color-COLORNAME-SHADE
 
 Available values for COLORNAME:
 	gray,
 	rose, raspberry, red, orange, cinnamon, amber, yellow, lime,
 	chartreuse, green, emerald, aquamarine, teal, cyan, powder, sky
 	cerulean, azure, blue, indigo, violet, purple, magenta, pink
-	
-Available values for COLORNUMBER:
+
+Available values for SHADE:
 	1, 2, 3, 4, 5, 6
 
-Minimum contrast can be inferred by the difference bewtweeb two COLORNUMBER values
+Minimum contrast can be inferred by the difference bewtween two SHADE numbers
 	Difference of 2: (3:1)
 	Difference of 3: (4.5:1)
 	Difference of 4: (7:1)
 
-Complete documentation available at: https://www.reasonable.work/colors 
+More infromation available at: https://www.reasonable.work/colors 
 ****** */
 
 :root {
@@ -32,6 +32,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-gray-6: rgb(34, 34, 34);
 
 	/* rose */
+	/* hue 1 */
 	--color-rose-1: rgb(255, 247, 249);
 	--color-rose-2: rgb(255, 220, 229);
 	--color-rose-3: rgb(255, 59, 141);
@@ -40,6 +41,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-rose-6: rgb(76, 0, 35);
 
 	/* raspberry */
+	/* hue 2 */
 	--color-raspberry-1: rgb(255, 248, 248);
 	--color-raspberry-2: rgb(255, 221, 223);
 	--color-raspberry-3: rgb(255, 66, 108);
@@ -48,6 +50,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-raspberry-6: rgb(81, 0, 24);
 
 	/* red */
+	/* hue 3 */
 	--color-red-1: rgb(255, 248, 246);
 	--color-red-2: rgb(255, 221, 216);
 	--color-red-3: rgb(255, 70, 71);
@@ -56,6 +59,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-red-6: rgb(83, 0, 3);
 
 	/* orange */
+	/* hue 4 */
 	--color-orange-1: rgb(255, 248, 245);
 	--color-orange-2: rgb(255, 222, 209);
 	--color-orange-3: rgb(253, 77, 0);
@@ -64,6 +68,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-orange-6: rgb(64, 22, 0);
 
 	/* cinnamon */
+	/* hue 5 */
 	--color-cinnamon-1: rgb(255, 248, 243);
 	--color-cinnamon-2: rgb(255, 223, 198);
 	--color-cinnamon-3: rgb(213, 115, 0);
@@ -72,6 +77,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-cinnamon-6: rgb(55, 29, 0);
 
 	/* amber */
+	/* hue 6 */
 	--color-amber-1: rgb(255, 248, 239);
 	--color-amber-2: rgb(255, 224, 178);
 	--color-amber-3: rgb(185, 131, 0);
@@ -80,6 +86,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-amber-6: rgb(48, 33, 0);
 
 	/* yellow */
+	/* hue 7 */
 	--color-yellow-1: rgb(255, 249, 229);
 	--color-yellow-2: rgb(255, 229, 62);
 	--color-yellow-3: rgb(156, 139, 0);
@@ -88,6 +95,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-yellow-6: rgb(41, 35, 0);
 
 	/* lime */
+	/* hue 8 */
 	--color-lime-1: rgb(247, 255, 172);
 	--color-lime-2: rgb(213, 242, 0);
 	--color-lime-3: rgb(129, 147, 0);
@@ -96,6 +104,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-lime-6: rgb(34, 38, 0);
 
 	/* chartreuse */
+	/* hue 9 */
 	--color-chartreuse-1: rgb(229, 255, 195);
 	--color-chartreuse-2: rgb(152, 251, 0);
 	--color-chartreuse-3: rgb(92, 155, 0);
@@ -104,6 +113,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-chartreuse-6: rgb(24, 38, 0);
 
 	/* green */
+	/* hue 10 */
 	--color-green-1: rgb(224, 255, 217);
 	--color-green-2: rgb(114, 255, 108);
 	--color-green-3: rgb(0, 162, 31);
@@ -112,6 +122,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-green-6: rgb(6, 40, 0);
 
 	/* emerald */
+	/* hue 11 */
 	--color-emerald-1: rgb(220, 255, 230);
 	--color-emerald-2: rgb(93, 255, 162);
 	--color-emerald-3: rgb(0, 160, 90);
@@ -120,6 +131,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-emerald-6: rgb(0, 40, 18);
 
 	/* aquamarine */
+	/* hue 12 */
 	--color-aquamarine-1: rgb(218, 255, 239);
 	--color-aquamarine-2: rgb(66, 255, 198);
 	--color-aquamarine-3: rgb(0, 159, 120);
@@ -128,6 +140,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-aquamarine-6: rgb(0, 40, 27);
 
 	/* teal */
+	/* hue 13 */
 	--color-teal-1: rgb(215, 255, 247);
 	--color-teal-2: rgb(0, 255, 228);
 	--color-teal-3: rgb(0, 158, 140);
@@ -136,6 +149,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-teal-6: rgb(0, 39, 34);
 
 	/* cyan */
+	/* hue 14 */
 	--color-cyan-1: rgb(196, 255, 254);
 	--color-cyan-2: rgb(0, 250, 251);
 	--color-cyan-3: rgb(0, 153, 154);
@@ -144,6 +158,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-cyan-6: rgb(0, 37, 37);
 
 	/* powder */
+	/* hue 15 */
 	--color-powder-1: rgb(218, 250, 255);
 	--color-powder-2: rgb(141, 240, 255);
 	--color-powder-3: rgb(0, 152, 169);
@@ -152,6 +167,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-powder-6: rgb(0, 34, 39);
 
 	/* sky */
+	/* hue 16 */
 	--color-sky-1: rgb(227, 247, 255);
 	--color-sky-2: rgb(174, 233, 255);
 	--color-sky-3: rgb(0, 148, 180);
@@ -160,6 +176,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-sky-6: rgb(0, 31, 40);
 
 	/* cerulean */
+	/* hue 17 */
 	--color-cerulean-1: rgb(232, 246, 255);
 	--color-cerulean-2: rgb(185, 227, 255);
 	--color-cerulean-3: rgb(0, 146, 197);
@@ -168,6 +185,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-cerulean-6: rgb(0, 29, 42);
 
 	/* azure */
+	/* hue 18 */
 	--color-azure-1: rgb(232, 242, 255);
 	--color-azure-2: rgb(198, 224, 255);
 	--color-azure-3: rgb(0, 143, 219);
@@ -176,6 +194,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-azure-6: rgb(0, 28, 48);
 
 	/* blue */
+	/* hue 19 */
 	--color-blue-1: rgb(240, 244, 255);
 	--color-blue-2: rgb(212, 224, 255);
 	--color-blue-3: rgb(0, 137, 252);
@@ -184,6 +203,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-blue-6: rgb(0, 26, 57);
 
 	/* indigo */
+	/* hue 20 */
 	--color-indigo-1: rgb(243, 243, 255);
 	--color-indigo-2: rgb(222, 221, 255);
 	--color-indigo-3: rgb(101, 126, 255);
@@ -192,6 +212,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-indigo-6: rgb(0, 22, 73);
 
 	/* violet */
+	/* hue 21 */
 	--color-violet-1: rgb(247, 241, 255);
 	--color-violet-2: rgb(232, 218, 255);
 	--color-violet-3: rgb(155, 112, 255);
@@ -200,6 +221,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-violet-6: rgb(11, 0, 116);
 
 	/* purple */
+	/* hue 22 */
 	--color-purple-1: rgb(253, 244, 255);
 	--color-purple-2: rgb(247, 217, 255);
 	--color-purple-3: rgb(209, 80, 255);
@@ -208,6 +230,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-purple-6: rgb(58, 0, 79);
 
 	/* magenta */
+	/* hue 23 */
 	--color-magenta-1: rgb(255, 243, 252);
 	--color-magenta-2: rgb(255, 215, 246);
 	--color-magenta-3: rgb(249, 17, 224);
@@ -216,6 +239,7 @@ Complete documentation available at: https://www.reasonable.work/colors
 	--color-magenta-6: rgb(68, 0, 60);
 
 	/* pink */
+	/* hue 24 */
 	--color-pink-1: rgb(255, 247, 251);
 	--color-pink-2: rgb(255, 220, 236);
 	--color-pink-3: rgb(255, 47, 178);
