@@ -12,10 +12,10 @@ Available values for COLORNAME:
 Available values for SHADE:
 	1, 2, 3, 4, 5, 6
 
-Minimum contrast can be inferred by the difference bewtween two SHADE numbers
+Minimum contrast can be inferred by the difference between two SHADE numbers
 
 - Difference of 2: (3:1)
 - Difference of 3: (4.5:1)
 - Difference of 4: (7:1)
 
-More infromation available at: https://www.reasonable.work/colors 
+More information available at: https://www.reasonable.work/colors 
