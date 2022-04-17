@@ -1,0 +1,270 @@
+/* reasonable colors v0.3.1 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+
+/* ******
+
+Format for SCSS variables: $color-COLORNAME-SHADE
+
+Available values for COLORNAME:
+	gray,
+	rose, raspberry, red, orange, cinnamon, amber, yellow, lime,
+	chartreuse, green, emerald, aquamarine, teal, cyan, powder, sky
+	cerulean, azure, blue, indigo, violet, purple, magenta, pink
+
+Available values for SHADE:
+	1, 2, 3, 4, 5, 6
+
+Minimum contrast can be inferred by the difference bewtween two SHADE numbers
+	Difference of 2: (3:1)
+	Difference of 3: (4.5:1)
+	Difference of 4: (7:1)
+
+More infromation available at: https://www.reasonable.work/colors
+****** */
+
+/* gray */
+$color-gray-1: rgb(246, 246, 246);
+$color-gray-2: rgb(226, 226, 226);
+$color-gray-3: rgb(139, 139, 139);
+$color-gray-4: rgb(111, 111, 111);
+$color-gray-5: rgb(62, 62, 62);
+$color-gray-6: rgb(34, 34, 34);
+
+/* rose */
+
+/* hue 1 */
+$color-rose-1: rgb(255, 247, 249);
+$color-rose-2: rgb(255, 220, 229);
+$color-rose-3: rgb(255, 59, 141);
+$color-rose-4: rgb(219, 0, 114);
+$color-rose-5: rgb(128, 0, 64);
+$color-rose-6: rgb(76, 0, 35);
+
+/* raspberry */
+
+/* hue 2 */
+$color-raspberry-1: rgb(255, 248, 248);
+$color-raspberry-2: rgb(255, 221, 223);
+$color-raspberry-3: rgb(255, 66, 108);
+$color-raspberry-4: rgb(222, 0, 81);
+$color-raspberry-5: rgb(130, 0, 44);
+$color-raspberry-6: rgb(81, 0, 24);
+
+/* red */
+
+/* hue 3 */
+$color-red-1: rgb(255, 248, 246);
+$color-red-2: rgb(255, 221, 216);
+$color-red-3: rgb(255, 70, 71);
+$color-red-4: rgb(224, 0, 43);
+$color-red-5: rgb(131, 0, 20);
+$color-red-6: rgb(83, 0, 3);
+
+/* orange */
+
+/* hue 4 */
+$color-orange-1: rgb(255, 248, 245);
+$color-orange-2: rgb(255, 222, 209);
+$color-orange-3: rgb(253, 77, 0);
+$color-orange-4: rgb(205, 60, 0);
+$color-orange-5: rgb(117, 33, 0);
+$color-orange-6: rgb(64, 22, 0);
+
+/* cinnamon */
+
+/* hue 5 */
+$color-cinnamon-1: rgb(255, 248, 243);
+$color-cinnamon-2: rgb(255, 223, 198);
+$color-cinnamon-3: rgb(213, 115, 0);
+$color-cinnamon-4: rgb(172, 92, 0);
+$color-cinnamon-5: rgb(99, 51, 0);
+$color-cinnamon-6: rgb(55, 29, 0);
+
+/* amber */
+
+/* hue 6 */
+$color-amber-1: rgb(255, 248, 239);
+$color-amber-2: rgb(255, 224, 178);
+$color-amber-3: rgb(185, 131, 0);
+$color-amber-4: rgb(146, 103, 0);
+$color-amber-5: rgb(82, 56, 0);
+$color-amber-6: rgb(48, 33, 0);
+
+/* yellow */
+
+/* hue 7 */
+$color-yellow-1: rgb(255, 249, 229);
+$color-yellow-2: rgb(255, 229, 62);
+$color-yellow-3: rgb(156, 139, 0);
+$color-yellow-4: rgb(125, 111, 0);
+$color-yellow-5: rgb(70, 61, 0);
+$color-yellow-6: rgb(41, 35, 0);
+
+/* lime */
+
+/* hue 8 */
+$color-lime-1: rgb(247, 255, 172);
+$color-lime-2: rgb(213, 242, 0);
+$color-lime-3: rgb(129, 147, 0);
+$color-lime-4: rgb(103, 118, 0);
+$color-lime-5: rgb(57, 65, 0);
+$color-lime-6: rgb(34, 38, 0);
+
+/* chartreuse */
+
+/* hue 9 */
+$color-chartreuse-1: rgb(229, 255, 195);
+$color-chartreuse-2: rgb(152, 251, 0);
+$color-chartreuse-3: rgb(92, 155, 0);
+$color-chartreuse-4: rgb(73, 124, 0);
+$color-chartreuse-5: rgb(38, 69, 0);
+$color-chartreuse-6: rgb(24, 38, 0);
+
+/* green */
+
+/* hue 10 */
+$color-green-1: rgb(224, 255, 217);
+$color-green-2: rgb(114, 255, 108);
+$color-green-3: rgb(0, 162, 31);
+$color-green-4: rgb(0, 130, 23);
+$color-green-5: rgb(0, 73, 8);
+$color-green-6: rgb(6, 40, 0);
+
+/* emerald */
+
+/* hue 11 */
+$color-emerald-1: rgb(220, 255, 230);
+$color-emerald-2: rgb(93, 255, 162);
+$color-emerald-3: rgb(0, 160, 90);
+$color-emerald-4: rgb(0, 129, 71);
+$color-emerald-5: rgb(0, 72, 37);
+$color-emerald-6: rgb(0, 40, 18);
+
+/* aquamarine */
+
+/* hue 12 */
+$color-aquamarine-1: rgb(218, 255, 239);
+$color-aquamarine-2: rgb(66, 255, 198);
+$color-aquamarine-3: rgb(0, 159, 120);
+$color-aquamarine-4: rgb(0, 127, 95);
+$color-aquamarine-5: rgb(0, 71, 52);
+$color-aquamarine-6: rgb(0, 40, 27);
+
+/* teal */
+
+/* hue 13 */
+$color-teal-1: rgb(215, 255, 247);
+$color-teal-2: rgb(0, 255, 228);
+$color-teal-3: rgb(0, 158, 140);
+$color-teal-4: rgb(0, 124, 110);
+$color-teal-5: rgb(0, 68, 60);
+$color-teal-6: rgb(0, 39, 34);
+
+/* cyan */
+
+/* hue 14 */
+$color-cyan-1: rgb(196, 255, 254);
+$color-cyan-2: rgb(0, 250, 251);
+$color-cyan-3: rgb(0, 153, 154);
+$color-cyan-4: rgb(0, 122, 123);
+$color-cyan-5: rgb(0, 67, 68);
+$color-cyan-6: rgb(0, 37, 37);
+
+/* powder */
+
+/* hue 15 */
+$color-powder-1: rgb(218, 250, 255);
+$color-powder-2: rgb(141, 240, 255);
+$color-powder-3: rgb(0, 152, 169);
+$color-powder-4: rgb(0, 121, 135);
+$color-powder-5: rgb(0, 64, 72);
+$color-powder-6: rgb(0, 34, 39);
+
+/* sky */
+
+/* hue 16 */
+$color-sky-1: rgb(227, 247, 255);
+$color-sky-2: rgb(174, 233, 255);
+$color-sky-3: rgb(0, 148, 180);
+$color-sky-4: rgb(0, 117, 144);
+$color-sky-5: rgb(0, 64, 79);
+$color-sky-6: rgb(0, 31, 40);
+
+/* cerulean */
+
+/* hue 17 */
+$color-cerulean-1: rgb(232, 246, 255);
+$color-cerulean-2: rgb(185, 227, 255);
+$color-cerulean-3: rgb(0, 146, 197);
+$color-cerulean-4: rgb(0, 116, 157);
+$color-cerulean-5: rgb(0, 60, 84);
+$color-cerulean-6: rgb(0, 29, 42);
+
+/* azure */
+
+/* hue 18 */
+$color-azure-1: rgb(232, 242, 255);
+$color-azure-2: rgb(198, 224, 255);
+$color-azure-3: rgb(0, 143, 219);
+$color-azure-4: rgb(0, 113, 175);
+$color-azure-5: rgb(0, 59, 94);
+$color-azure-6: rgb(0, 28, 48);
+
+/* blue */
+
+/* hue 19 */
+$color-blue-1: rgb(240, 244, 255);
+$color-blue-2: rgb(212, 224, 255);
+$color-blue-3: rgb(0, 137, 252);
+$color-blue-4: rgb(0, 109, 202);
+$color-blue-5: rgb(0, 56, 109);
+$color-blue-6: rgb(0, 26, 57);
+
+/* indigo */
+
+/* hue 20 */
+$color-indigo-1: rgb(243, 243, 255);
+$color-indigo-2: rgb(222, 221, 255);
+$color-indigo-3: rgb(101, 126, 255);
+$color-indigo-4: rgb(0, 97, 252);
+$color-indigo-5: rgb(0, 50, 138);
+$color-indigo-6: rgb(0, 22, 73);
+
+/* violet */
+
+/* hue 21 */
+$color-violet-1: rgb(247, 241, 255);
+$color-violet-2: rgb(232, 218, 255);
+$color-violet-3: rgb(155, 112, 255);
+$color-violet-4: rgb(121, 74, 255);
+$color-violet-5: rgb(45, 15, 191);
+$color-violet-6: rgb(11, 0, 116);
+
+/* purple */
+
+/* hue 22 */
+$color-purple-1: rgb(253, 244, 255);
+$color-purple-2: rgb(247, 217, 255);
+$color-purple-3: rgb(209, 80, 255);
+$color-purple-4: rgb(176, 31, 227);
+$color-purple-5: rgb(102, 0, 135);
+$color-purple-6: rgb(58, 0, 79);
+
+/* magenta */
+
+/* hue 23 */
+$color-magenta-1: rgb(255, 243, 252);
+$color-magenta-2: rgb(255, 215, 246);
+$color-magenta-3: rgb(249, 17, 224);
+$color-magenta-4: rgb(202, 0, 182);
+$color-magenta-5: rgb(116, 0, 104);
+$color-magenta-6: rgb(68, 0, 60);
+
+/* pink */
+
+/* hue 24 */
+$color-pink-1: rgb(255, 247, 251);
+$color-pink-2: rgb(255, 220, 236);
+$color-pink-3: rgb(255, 47, 178);
+$color-pink-4: rgb(210, 0, 143);
+$color-pink-5: rgb(121, 0, 81);
+$color-pink-6: rgb(75, 0, 48);
