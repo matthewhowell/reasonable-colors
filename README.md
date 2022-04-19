@@ -18,4 +18,8 @@ Minimum contrast can be inferred by the difference between two SHADE numbers
 - Difference of 3: (4.5:1)
 - Difference of 4: (7:1)
 
+reasonable-colors.css uses hex values. HSL, LCH, and RGB color spaces are available.
+
+For .scss friendly variable declarations, FILENAME.scss for each color space are provided.
+
 More information available at: https://www.reasonable.work/colors 

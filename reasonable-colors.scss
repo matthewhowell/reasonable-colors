@@ -1,0 +1,252 @@
+/*! reasonable colors v0.4.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+
+/* ******
+
+Format for SCSS variables: $color-COLORNAME-SHADE
+
+Available values for COLORNAME:
+	gray,
+	rose, raspberry, red, orange, cinnamon, amber, yellow, lime,
+	chartreuse, green, emerald, aquamarine, teal, cyan, powder, sky
+	cerulean, azure, blue, indigo, violet, purple, magenta, pink
+
+Available values for SHADE:
+	1, 2, 3, 4, 5, 6
+
+Minimum contrast can be inferred by the difference between two SHADE numbers
+
+- Difference of 2: (3:1)
+- Difference of 3: (4.5:1)
+- Difference of 4: (7:1)
+
+reasonable-colors.css uses hex values. HSL, LCH, and RGB color spaces are available.
+
+For .scss friendly variable declarations, FILENAME.scss for each color space are provided.
+
+More information available at: https://www.reasonable.work/colors 
+
+****** */
+
+/* gray */
+$color-gray-1: #f6f6f6;
+$color-gray-2: #e2e2e2;
+$color-gray-3: #8b8b8b;
+$color-gray-4: #6f6f6f;
+$color-gray-5: #3e3e3e;
+$color-gray-6: #222222;
+
+/* rose */
+/* hue 1 */
+$color-rose-1: #fff7f9;
+$color-rose-2: #ffdce5;
+$color-rose-3: #ff3b8d;
+$color-rose-4: #db0072;
+$color-rose-5: #800040;
+$color-rose-6: #4c0023;
+
+/* raspberry */
+/* hue 2 */
+$color-raspberry-1: #fff8f8;
+$color-raspberry-2: #ffdddf;
+$color-raspberry-3: #ff426c;
+$color-raspberry-4: #de0051;
+$color-raspberry-5: #82002c;
+$color-raspberry-6: #510018;
+
+/* red */
+/* hue 3 */
+$color-red-1: #fff8f6;
+$color-red-2: #ffddd8;
+$color-red-3: #ff4647;
+$color-red-4: #e0002b;
+$color-red-5: #830014;
+$color-red-6: #530003;
+
+/* orange */
+/* hue 4 */
+$color-orange-1: #fff8f5;
+$color-orange-2: #ffded1;
+$color-orange-3: #fd4d00;
+$color-orange-4: #cd3c00;
+$color-orange-5: #752100;
+$color-orange-6: #401600;
+
+/* cinnamon */
+/* hue 5 */
+$color-cinnamon-1: #fff8f3;
+$color-cinnamon-2: #ffdfc6;
+$color-cinnamon-3: #d57300;
+$color-cinnamon-4: #ac5c00;
+$color-cinnamon-5: #633300;
+$color-cinnamon-6: #371d00;
+
+/* amber */
+/* hue 6 */
+$color-amber-1: #fff8ef;
+$color-amber-2: #ffe0b2;
+$color-amber-3: #b98300;
+$color-amber-4: #926700;
+$color-amber-5: #523800;
+$color-amber-6: #302100;
+
+/* yellow */
+/* hue 7 */
+$color-yellow-1: #fff9e5;
+$color-yellow-2: #ffe53e;
+$color-yellow-3: #9c8b00;
+$color-yellow-4: #7d6f00;
+$color-yellow-5: #463d00;
+$color-yellow-6: #292300;
+
+/* lime */
+/* hue 8 */
+$color-lime-1: #f7ffac;
+$color-lime-2: #d5f200;
+$color-lime-3: #819300;
+$color-lime-4: #677600;
+$color-lime-5: #394100;
+$color-lime-6: #222600;
+
+/* chartreuse */
+/* hue 9 */
+$color-chartreuse-1: #e5ffc3;
+$color-chartreuse-2: #98fb00;
+$color-chartreuse-3: #5c9b00;
+$color-chartreuse-4: #497c00;
+$color-chartreuse-5: #264500;
+$color-chartreuse-6: #182600;
+
+/* green */
+/* hue 10 */
+$color-green-1: #e0ffd9;
+$color-green-2: #72ff6c;
+$color-green-3: #00a21f;
+$color-green-4: #008217;
+$color-green-5: #004908;
+$color-green-6: #062800;
+
+/* emerald */
+/* hue 11 */
+$color-emerald-1: #dcffe6;
+$color-emerald-2: #5dffa2;
+$color-emerald-3: #00a05a;
+$color-emerald-4: #008147;
+$color-emerald-5: #004825;
+$color-emerald-6: #002812;
+
+/* aquamarine */
+/* hue 12 */
+$color-aquamarine-1: #daffef;
+$color-aquamarine-2: #42ffc6;
+$color-aquamarine-3: #009f78;
+$color-aquamarine-4: #007f5f;
+$color-aquamarine-5: #004734;
+$color-aquamarine-6: #00281b;
+
+/* teal */
+/* hue 13 */
+$color-teal-1: #d7fff7;
+$color-teal-2: #00ffe4;
+$color-teal-3: #009e8c;
+$color-teal-4: #007c6e;
+$color-teal-5: #00443c;
+$color-teal-6: #002722;
+
+/* cyan */
+/* hue 14 */
+$color-cyan-1: #c4fffe;
+$color-cyan-2: #00fafb;
+$color-cyan-3: #00999a;
+$color-cyan-4: #007a7b;
+$color-cyan-5: #004344;
+$color-cyan-6: #002525;
+
+/* powder */
+/* hue 15 */
+$color-powder-1: #dafaff;
+$color-powder-2: #8df0ff;
+$color-powder-3: #0098a9;
+$color-powder-4: #007987;
+$color-powder-5: #004048;
+$color-powder-6: #002227;
+
+/* sky */
+/* hue 16 */
+$color-sky-1: #e3f7ff;
+$color-sky-2: #aee9ff;
+$color-sky-3: #0094b4;
+$color-sky-4: #007590;
+$color-sky-5: #00404f;
+$color-sky-6: #001f28;
+
+/* cerulean */
+/* hue 17 */
+$color-cerulean-1: #e8f6ff;
+$color-cerulean-2: #b9e3ff;
+$color-cerulean-3: #0092c5;
+$color-cerulean-4: #00749d;
+$color-cerulean-5: #003c54;
+$color-cerulean-6: #001d2a;
+
+/* azure */
+/* hue 18 */
+$color-azure-1: #e8f2ff;
+$color-azure-2: #c6e0ff;
+$color-azure-3: #008fdb;
+$color-azure-4: #0071af;
+$color-azure-5: #003b5e;
+$color-azure-6: #001c30;
+
+/* blue */
+/* hue 19 */
+$color-blue-1: #f0f4ff;
+$color-blue-2: #d4e0ff;
+$color-blue-3: #0089fc;
+$color-blue-4: #006dca;
+$color-blue-5: #00386d;
+$color-blue-6: #001a39;
+
+/* indigo */
+/* hue 20 */
+$color-indigo-1: #f3f3ff;
+$color-indigo-2: #deddff;
+$color-indigo-3: #657eff;
+$color-indigo-4: #0061fc;
+$color-indigo-5: #00328a;
+$color-indigo-6: #001649;
+
+/* violet */
+/* hue 21 */
+$color-violet-1: #f7f1ff;
+$color-violet-2: #e8daff;
+$color-violet-3: #9b70ff;
+$color-violet-4: #794aff;
+$color-violet-5: #2d0fbf;
+$color-violet-6: #0b0074;
+	
+/* purple */
+/* hue 22 */
+$color-purple-1: #fdf4ff;
+$color-purple-2: #f7d9ff;
+$color-purple-3: #d150ff;
+$color-purple-4: #b01fe3;
+$color-purple-5: #660087;
+$color-purple-6: #3a004f;
+
+/* magenta */
+/* hue 23 */
+$color-magenta-1: #fff3fc;
+$color-magenta-2: #ffd7f6;
+$color-magenta-3: #f911e0;
+$color-magenta-4: #ca00b6;
+$color-magenta-5: #740068;
+$color-magenta-6: #44003c;
+
+/* pink */
+/* hue 24 */
+$color-pink-1: #fff7fb;
+$color-pink-2: #ffdcec;
+$color-pink-3: #ff2fb2;
+$color-pink-4: #d2008f;
+$color-pink-5: #790051;
+$color-pink-6: #4b0030;

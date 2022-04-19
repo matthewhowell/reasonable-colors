@@ -1,4 +1,4 @@
-/*! reasonable colors v0.3.1 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+/*! reasonable colors v0.4.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */
 
 /* ******
 
@@ -13,12 +13,18 @@ Available values for COLORNAME:
 Available values for SHADE:
 	1, 2, 3, 4, 5, 6
 
-Minimum contrast can be inferred by the difference bewtween two SHADE numbers
-	Difference of 2: (3:1)
-	Difference of 3: (4.5:1)
-	Difference of 4: (7:1)
+Minimum contrast can be inferred by the difference between two SHADE numbers
 
-More infromation available at: https://www.reasonable.work/colors 
+- Difference of 2: (3:1)
+- Difference of 3: (4.5:1)
+- Difference of 4: (7:1)
+
+reasonable-colors.css uses hex values. HSL, LCH, and RGB color spaces are available.
+
+For .scss friendly variable declarations, FILENAME.scss for each color space are provided.
+
+More information available at: https://www.reasonable.work/colors 
+
 ****** */
 
 :root {
