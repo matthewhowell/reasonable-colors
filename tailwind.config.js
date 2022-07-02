@@ -11,7 +11,7 @@ Available values for colors (instead of tailwinds default blue, slate, …):
 	chartreuse, green, emerald, aquamarine, teal, cyan, powder, sky
 	cerulean, azure, blue, indigo, violet, purple, magenta, pink
 
-Available values for the shades (instead of tailwinds defaults 200, 500, …) :
+Available values for the shades (instead of tailwinds default 200, 500, …) :
 	1, 2, 3, 4, 5, 6
 
 Minimum contrast can be inferred by the difference between two shade numbers
